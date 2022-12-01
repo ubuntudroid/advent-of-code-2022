@@ -17,6 +17,6 @@ internal class Day01KtTest {
     @Test
     fun part2() {
         val testInput = readInput("Day01_test")
-        check(part2(testInput) == 1)
+        check(part2(testInput) == 45000)
     }
 }
