@@ -1,6 +1,8 @@
+package day01
+
 import org.junit.jupiter.api.Test
 
-import org.junit.jupiter.api.Assertions.*
+import readInput
 
 internal class Day01KtTest {
 
@@ -10,10 +12,6 @@ internal class Day01KtTest {
         check(part1(testInput) == 24000)
     }
 
-    /*
-    Might be there is no test input/output for part 2 provided by the description - let's wait for Day 1 to see the
-    final structure.
-    */
     @Test
     fun part2() {
         val testInput = readInput("Day01_test")
